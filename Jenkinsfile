@@ -7,7 +7,7 @@ pipeline {
             //agent { label 'nimbusserver' }
             steps {
                 //sh 'make check'
-                git 'ssh://nimbusserver:9022/GitRepo/Octane_Gherkin'
+                git 'ssh://root@nimbusserver:9022/GitRepo/Octane_Gherkin'
                 //sh 'mvn clean test'
                 //sh 'mvn clean install -Dmaven.test.failure.ignore=true'
             }
